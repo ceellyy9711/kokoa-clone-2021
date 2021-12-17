@@ -18,9 +18,14 @@
   font-size: 22px;
 }
 .user-component__subtitle {
-  margin-top: 8px;
+  margin-right: 5px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__subtitle-exclamation {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
 }
 .user-component__avatar--xl {
   width: 80px;

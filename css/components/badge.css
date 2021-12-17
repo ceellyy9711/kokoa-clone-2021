@@ -10,8 +10,5 @@
   font-weight: 600;
 }
 .badge__exclamation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: red;
 }
