@@ -11,6 +11,26 @@
   margin-right: 20px;
   font-size: 22px;
 }
+.settings__setting:first-child {
+  animation: list-transition 0.3s ease-in-out;
+}
+.settings__setting:nth-child(2) {
+  animation: list-transition 0.5s ease-in-out;
+}
+.settings__setting:last-child {
+  animation: list-transition 0.7s ease-in-out;
+}
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+@keyframes list-transition {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
 }
