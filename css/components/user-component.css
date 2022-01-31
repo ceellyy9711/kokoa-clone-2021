@@ -1,6 +1,7 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: 10px;
+  font-family: "Bitter", serif;
 }
 .user-component,
 .user-component__column:first-child {

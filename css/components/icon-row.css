@@ -1,6 +1,7 @@
 .icon-row {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Bitter", serif;
   /* justify-content: space-between; */
 }
 .icon-row__icon {
